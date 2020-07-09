@@ -69,3 +69,33 @@ class State:
 
     def __str__(self):
         return str(self.board)
+
+    def get_strike(self):
+        board = self.board
+        # row match
+        for i in range(3):
+            if self.board[i][0] == State.EMPTY:
+                continue
+            if self.board[i][0] == board[i][1] and board[i][0] == board[i][2]:
+                return (i,"row")
+
+        # col match
+        for i in range(3):
+            if board[0][i] == State.EMPTY:
+                continue
+            if board[0][i] == board[1][i] and board[0][i] == board[2][i]:
+                return (i,"col")
+
+        if (
+            board[0][0] != State.EMPTY
+            and board[0][0] == board[1][1]
+            and board[0][0] == board[2][2]
+        ):
+            return (0,"diag")
+
+        if (
+            board[0][2] != State.EMPTY
+            and board[0][2] == board[1][1]
+            and board[0][2] == board[2][0]
+        ):
+            return (1,"diag")
