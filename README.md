@@ -20,6 +20,9 @@ Progress
 Usage
 -----
 Install `pygame`
+
 >`pip install pygame`
+
 Then just run the `run.py` file
+
 >`python run.py`
