@@ -17,6 +17,8 @@ Progress
 - I have implemented the `MiniMax` algorithm as the AI.
 - Implemented the game in `pygame` with very basic graphics design!
 ![Gameplay](https://raw.githubusercontent.com/MzMahmud/Tic-Tac-Toe/master/Tic-Tac-Toe-Gameplay.gif)
+
+
 Usage
 -----
 Install `pygame`
