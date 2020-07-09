@@ -16,7 +16,7 @@ Progress
 - Currently my Tic-tac-toe game is played on commandline with the numberpad as the 3x3 input!
 - I have implemented the `MiniMax` algorithm as the AI.
 - Implemented the game in `pygame` with very basic graphics design!
-
+![Gameplay](https://raw.githubusercontent.com/MzMahmud/Tic-Tac-Toe/master/Tic-Tac-Toe-Gameplay.gif)
 Usage
 -----
 Install `pygame`
